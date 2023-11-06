@@ -70,6 +70,7 @@ class MainActivity : AppCompatActivity() {
         textView = findViewById(resources.getIdentifier("textView", "id", packageName))
 
         val numberButtons = listOf(
+            R.id.zero,
             R.id.one,
             R.id.two,
             R.id.three,
